@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.oa.dao.ClaimVoucherMapper">
+    <resultMap id="BaseResultMap" type="com.imooc.oa.entity.ClaimVoucher">
+        
+        <id column="id" jdbcType="INTEGER" property="id"/>
+                
+        <id column="cause" jdbcType="VARCHAR" property="cause"/>
+        
+        <id column="create_sn" jdbcType="VARCHAR" property="createSn"/>
+        
+        <id column="create_time" jdbcType="DATETIMEOFFSET" property="createTime"/>
+        
+        <id column="next_deal_sn" jdbcType="VARCHAR" property="nextDealSn"/>
+        
+        <id column="total_amount" jdbcType="DOUBLE" property="totalAmount"/>
+        
+        <id column="status" jdbcType="VARCHAR" property="status"/>
+        
+    </resultMap>
+
+</mapper>

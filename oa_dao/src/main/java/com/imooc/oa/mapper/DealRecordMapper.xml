@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.oa.dao.DealRecordMapper">
+    <resultMap id="BaseResultMap" type="com.imooc.oa.entity.DealRecord">
+        
+        <id column="id" jdbcType="INTEGER" property="id"/>
+                
+        <id column="claim_voucher_id" jdbcType="INTEGER" property="claimVoucherId"/>
+        
+        <id column="deal_sn" jdbcType="VARCHAR" property="dealSn"/>
+        
+        <id column="deal_time" jdbcType="DATETIMEOFFSET" property="dealTime"/>
+        
+        <id column="deal_way" jdbcType="VARCHAR" property="dealWay"/>
+        
+        <id column="deal_result" jdbcType="VARCHAR" property="dealResult"/>
+        
+        <id column="comment" jdbcType="VARCHAR" property="comment"/>
+        
+    </resultMap>
+
+</mapper>

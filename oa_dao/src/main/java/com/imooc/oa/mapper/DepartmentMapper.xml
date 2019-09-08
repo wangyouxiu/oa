@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.oa.dao.DepartmentMapper">
+    <resultMap id="BaseResultMap" type="com.imooc.oa.entity.Department">
+        
+        <id column="sn" jdbcType="VARCHAR" property="sn"/>
+                
+        <id column="name" jdbcType="VARCHAR" property="name"/>
+        
+        <id column="address" jdbcType="VARCHAR" property="address"/>
+        
+    </resultMap>
+
+</mapper>
